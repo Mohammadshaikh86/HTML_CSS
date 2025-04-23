@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AnimeZone - Inspired by HiAnimez</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #0f0f0f;
+      color: white;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      color: #00bcd4;
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00bcd4;
+    }
+
+    .banner {
+      background-image: url('https://via.placeholder.com/1200x400/000/fff?text=Featured+Anime');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2em;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px #000;
+    }
+
+    .search-container {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .search-container input {
+      width: 60%;
+      padding: 12px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
+
+    .anime-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .anime-card {
+      background-color: #1f1f1f;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .anime-card:hover {
+      transform: scale(1.05);
+    }
+
+    .anime-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .anime-card h3 {
+      padding: 10px;
+      font-size: 1em;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AnimeZone</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Popular</a>
+      <a href="#">Latest</a>
+      <a href="#">Genres</a>
+    </nav>
+  </header>
+
+  <div class="banner">
+    Featured Anime Goes Here
+  </div>
+
+  <div class="search-container">
+    <input type="text" placeholder="Search Anime..." />
+  </div>
+
+  <section class="anime-grid">
+    <div class="anime-card">
+        <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/bcd84731a3eda4f4a306250769675065.jpg" alt="One piece">
+        <h3>One piece</h3>
+      </div>
+      
+      <div class="anime-card">
+        <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/debf027d032c6d40b91fab16b2ff9bd4.jpg" alt="Attack on titan">
+        <h3>Attack on titan</h3>
+      </div>
+      
+      <div class="anime-card">
+        <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/9cbcf87f54194742e7686119089478f8.jpg" alt="Naruto Shippuden">
+        <h3>Naruto Shippuden</h3>
+      </div>
+    <div class="anime-card">
+        <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/82402f796b7d84d7071ab1e03ff7747a.jpg" alt="Jujutsu Kaisen">
+        <h3>Jujutsu Kaisen</h3>
+      </div>
+      
+      <div class="anime-card">
+        <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/1f73284800eb5cf57c32a8f68120cc82.jpg" alt="Demons slayer">
+        <h3>Demons slayer</h3>
+      </div>
+  </section>
+
+  <footer>
+    &copy; 2025 AnimeZone
+  </footer>
+</body>
+</html>
+<section style="padding: 30px; text-align: center;">
+    <h2 style="color: #00bcd4;">🎭 Browse by Genre</h2>
+    <div style="margin-top: 20px;">
+      <button class="genre-btn">Action</button>
+      <button class="genre-btn">Romance</button>
+      <button class="genre-btn">Comedy</button>
+      <button class="genre-btn">Horror</button>
+      <button class="genre-btn">Fantasy</button>
+    </div>
+  </section>
+  
+  <style>
+    .genre-btn {
+      background-color: #1f1f1f;
+      color: white;
+      border: 1px solid #00bcd4;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+  
+    .genre-btn:hover {
+      background-color: #00bcd4;
+      color: black;
+    }
+  </style>
+<section style="padding: 30px; background-color: #121212; color: white;">
+    <h2 style="color: #00bcd4; text-align: center;">💬 About AnimeZone</h2>
+    <p style="max-width: 800px; margin: 20px auto; font-size: 16px; text-align: center;">
+      AnimeZone is a fan-made anime streaming website clone created for learning and educational purposes only.
+      Explore hundreds of anime titles, follow your favorite series, and stay updated with the latest episodes — all through a clean, responsive, and beautifully designed interface.
+    </p>
+  </section>
+  <section style="padding: 30px; text-align: center;">
+    <h2 style="color: #00bcd4;">📬 Subscribe for Updates</h2>
+    <p style="color: #ccc;">Get notified about new episodes and updates!</p>
+    <form style="margin-top: 20px;">
+      <input type="email" placeholder="Enter your email..." style="padding: 12px 20px; width: 250px; border: none; border-radius: 5px;">
+      <button type="submit" style="padding: 12px 20px; background-color: #00bcd4; color: black; border: none; border-radius: 5px; margin-left: 10px;">Subscribe</button>
+    </form>
+  </section>
+  <footer style="background-color: #1a1a1a; padding: 20px; text-align: center; color: #ccc;">
+    <p>&copy; 2025 AnimeZone. All rights reserved.</p>
+    <div style="margin-top: 10px;">
+      <a href="#" style="color: #00bcd4; margin: 0 10px;">Facebook</a>
+      <a href="#" style="color: #00bcd4; margin: 0 10px;">Instagram</a>
+      <a href="#" style="color: #00bcd4; margin: 0 10px;">Discord</a>
+    </div>
+  </footer>
+      

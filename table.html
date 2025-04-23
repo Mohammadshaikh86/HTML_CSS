@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Updated Tables</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+      margin: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 40px;
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    caption {
+      caption-side: top;
+      text-align: center;
+      padding: 12px;
+      font-size: 1.4em;
+      font-weight: bold;
+      background-color: #e0f7fa;
+      border-bottom: 2px solid #00acc1;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #00bcd4;
+      color: white;
+    }
+
+    td {
+      background-color: #f0f8ff;
+    }
+
+    tfoot td {
+      font-weight: bold;
+      background-color: #e0ffe0;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Grocery Bill</caption>
+    <tr>
+      <th>Product</th>
+      <th>Price</th>
+      <th>Quantity</th>
+      <th>Total</th>
+    </tr>
+    <tr>
+      <td>Apple</td>
+      <td>$1.00</td>
+      <td>5</td>
+      <td>$5.00</td>
+    </tr>
+    <tr>
+      <td>Banana</td>
+      <td>$0.50</td>
+      <td>10</td>
+      <td>$5.00</td>
+    </tr>
+    <tr>
+      <td>Cherry</td>
+      <td>$2.00</td>
+      <td>3</td>
+      <td>$6.00</td>
+    </tr>
+    <tr>
+      <td>Orange</td>
+      <td>$1.50</td>
+      <td>4</td>
+      <td>$6.00</td>
+    </tr>
+    <tr>
+      <td>Grapes</td>
+      <td>$3.00</td>
+      <td>2</td>
+      <td>$6.00</td>
+    </tr>
+    <tr>
+      <td colspan="2"></td>
+      <td><strong>Total</strong></td>
+      <td>$28.00</td>
+    </tr>
+  </table>
+
+  <table>
+    <caption>Student Weekly Timetable</caption>
+    <tr>
+      <th>Time</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+      <th>Saturday</th>
+      <th>Sunday</th>
+    </tr>
+    <tr>
+      <td>9:00 AM</td>
+      <td>Math</td>
+      <td>Science</td>
+      <td>History</td>
+      <td>Geography</td>
+      <td>English</td>
+      <td>PE</td>
+      <td>Holiday</td>
+    </tr>
+    <tr>
+      <td>10:00 AM</td>
+      <td>Math</td>
+      <td>Science</td>
+      <td>History</td>
+      <td>Geography</td>
+      <td>English</td>
+      <td>PE</td>
+      <td>Holiday</td>
+    </tr>
+    <tr>
+      <td>11:00 AM</td>
+      <td>Math</td>
+      <td>Science</td>
+      <td>History</td>
+      <td>Geography</td>
+      <td>English</td>
+      <td>PE</td>
+      <td>Holiday</td>
+    </tr>
+    <tr>
+      <td>2:00 PM</td>
+      <td>Math</td>
+      <td>Science</td>
+      <td>History</td>
+      <td>Geography</td>
+      <td>English</td>
+      <td>PE</td>
+      <td>Holiday</td>
+    </tr>
+  </table>
+
+  <table>
+    <caption>Student Marks Table</caption>
+    <tr>
+      <th>Subject</th>
+      <th>Marks Obtained</th>
+      <th>Total Marks</th>
+      <th>Percentage</th>
+    </tr>
+    <tr>
+      <td>Math</td>
+      <td>85</td>
+      <td>100</td>
+      <td>85%</td>
+    </tr>
+    <tr>
+      <td>Science</td>
+      <td>90</td>
+      <td>100</td>
+      <td>90%</td>
+    </tr>
+    <tr>
+      <td>History</td>
+      <td>78</td>
+      <td>100</td>
+      <td>78%</td>
+    </tr>
+    <tr>
+      <td>Geography</td>
+      <td>88</td>
+      <td>100</td>
+      <td>88%</td>
+    </tr>
+    <tr>
+      <td>English</td>
+      <td>92</td>
+      <td>100</td>
+      <td>92%</td>
+    </tr>
+    <tr>
+      <td>PE</td>
+      <td>95</td>
+      <td>100</td>
+      <td>95%</td>
+    </tr>
+  </table>
+
+  <table>
+    <caption>Hobbies with Descriptions</caption>
+    <tr>
+      <th>Hobby</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>Reading</td>
+      <td>I love reading books, especially fiction and fantasy.</td>
+    </tr>
+    <tr>
+      <td>Traveling</td>
+      <td>I enjoy exploring new places and experiencing different cultures.</td>
+    </tr>
+    <tr>
+      <td>Cooking</td>
+      <td>I like trying out new recipes and cooking for my family.</td>
+    </tr>
+  </table>
+
+  <table>
+    <caption>People and Their Skills</caption>
+    <tr>
+      <th>Name</th>
+      <th>Skill</th>
+      <th>Level</th>
+    </tr>
+    <tr>
+      <td>Sourabh</td>
+      <td>HTML</td>
+      <td>Intermediate</td>
+    </tr>
+    <tr>
+      <td>Shivam</td>
+      <td>CSS</td>
+      <td>Advanced</td>
+    </tr>
+    <tr>
+      <td>Ronak</td>
+      <td>Java</td>
+      <td>Advance</td>
+    </tr>
+    <tr>
+      <td>Rahul</td>
+      <td>Python</td>
+      <td>Intermediate</td>
+    </tr>
+  </table>
+
+</body>
+</html>
