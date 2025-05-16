@@ -158,7 +158,6 @@ body {
   min-width: 250px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
-
 .card h3 {
   font-size: 16px;
   margin-bottom: 10px;
@@ -223,13 +222,16 @@ body {
   flex-shrink: 0;
 }
 
-.placeholder1 {
-  width: 100%;
-  height: 35px;
+.placeholder5 {
+  width: 50%;
+  height: 170px;
   background-color: #ddd;
   border-radius: 6px;
-  margin-left: 5px;
-  margin-right: 20px;
+  margin: auto;
+  /* background-image: url(https://c.media-amazon.com/images/I/31qQr77x5kL._SX300_SY300_QL70_ML2_.jpg); */
+  background-size:cover;
+  background-repeat: no-repeat;
+
 }
 
 .card1 {
@@ -238,4 +240,17 @@ body {
   border-radius: 8px;
   width: 22%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+.scroll-container3{
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding-top: 10px;
+}.horizontal-scroll8 {
+  background-color: white;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  width: 60%;
+  margin: 0 auto;
 }

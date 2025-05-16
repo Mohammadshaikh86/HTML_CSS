@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+h3{
+    color: darkblue;
+    text-align: center;
+}
+.Info{
+    text-align: center;
+    margin: 20px;
+}
+
+.Info img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+div{
+    margin: 20px;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: #333 solid;
+}
+p{
+    line-height: 1.6;
+    font-size: 16px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.project1, .project2{
+    margin-top: 20px;
+}
+
+.project1 p, .project2 p{
+    font-size: 14px;
+    text-align: justify;
+    color: black;
+}
+.contact{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.contact label{
+    font-weight: bold;
+    color: #333;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.contact input[type="submit"]{
+    background-color: #08609b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact input[type="submit"]:hover{
+    background-color: #2980b9;
+}
